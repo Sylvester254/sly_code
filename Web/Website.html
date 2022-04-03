@@ -59,53 +59,66 @@
         </tr>
     </table>
     <h2>Form</h2>
-    <div id="form">
-        <label for="first-name">First name:</label>
-        <input type="text" name="first-name" placeholder="Jon" required>
-        <label for="last-name">Last name:</label>
-        <input type="text" name="last-name" placeholder="Doe" required>
+    <form action="" method="">
+        <div id="form">
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" placeholder="Jon" required>
+            <label for="last-name">Last name:</label>
+            <input type="text" name="last-name" placeholder="Doe" required>
 
-        <div>
-            <label for="gender-male">Male</label>
-            <input type="radio" name="gender-choice" value="choice-1">
-            <label for="gender-female">Female</label>
-            <input type="radio" name="gender-choice" value="choice-2">
+            <div>
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender-choice" value="choice-1">
+                <label for="gender-female">Female</label>
+                <input type="radio" name="gender-choice" value="choice-2">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="jondoe@gmail.com">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="month">Birthday:</label>
+                <select name="month">
+                    <option value="0" selected disabled>month</option>
+                    <option value="jan">JANUARY</option>
+                    <option value="feb">FEBRUARY</option>
+                    <option value="march">MARCH</option>
+                    <option value="april">APRIL</option>
+                    <option value="may">MAY</option>
+                    <option value="june">JUNE</option>
+                    <option value="july">JULY</option>
+                    <option value="august">AUGUST</option>
+                    <option value="september">SEPTEMBER</option>
+                    <option value="october">OCTOBER</option>
+                    <option value="november">NOVEMBER</option>
+                    <option value="december">DECEMBER</option>
+                </select>
+            </div>
+            <label for="languages">Programming language:</label>
+            <select name="languages">
+                <option value="0" selection disabled>choose</option>
+                <option value="java">Java</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Js</option>
+                </select>
+
+            <div>
+                <label for="Agree">I agree that i've honestly answered the form:</label>
+                <input type="checkbox" name="Agree">
+            </div>
+            <div><button type="submit">Done</button></div>
+
         </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="jondoe@gmail.com">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type=" password " name="password ">
-        </div>
-        <div>
-            <label for="month">Birthday:</label>
-            <select name="month">
-        <option value="0" selected disabled>month</option>
-        <option value="jan">JANUARY</option>
-        <option value="feb">FEBRUARY</option>
-        <option value="march">MARCH</option>
-        <option value="april">APRIL</option>
-        <option value="may">MAY</option>
-        <option value="june">JUNE</option>
-        <option value="july">JULY</option>
-        <option value="august">AUGUST</option>
-        <option value="september">SEPTEMBER</option>
-        <option value="october">OCTOBER</option>
-        <option value="november">NOVEMBER</option>
-        <option value="december">DECEMBER</option>
-        </div>
-        <div>
-            <label for="Agree">I agree:</label>
-            <input type="checkbox" name="Agree">
-     
-        <button type="submit">Submit</button>
-       </div>
-    </div>
-   
+    </form>
+
+
     <a href="https://github.com/Sylvester254" target="blank"><img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" height="40" width="40" alt="My github"></a>
-</br>
+    </br>
     <a href="#top">Top of page</a>
 </body>
 
