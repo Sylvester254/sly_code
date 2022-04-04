@@ -7,13 +7,18 @@
             color: crimson
         }
         
+        ol li {
+            color: chartreuse;
+            font-style: italic;
+        }
+        
         table {
             border: 1px solid black;
         }
         
         td {
             border: 1px solid crimson;
-            color: crimson;
+            color: chartreuse;
             font-style: italic;
         }
         
@@ -33,5 +38,9 @@
         
         th {
             font-family: 'Times New Roman', Times, serif;
-            color: chartreuse
+            color: crimson
+        }
+        
+        form {
+            color: crimson;
         }
