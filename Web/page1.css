@@ -1,12 +1,37 @@
-table {
-    border: 1px solid black;
-}
-
-td {
-    border: 1px solid crimson
-}
-
-p {
-    font-size: 20px;
-    color: crimson
-}
+        html {
+            background-color: black;
+        }
+        
+        h3 {
+            font-style: oblique;
+            color: crimson
+        }
+        
+        table {
+            border: 1px solid black;
+        }
+        
+        td {
+            border: 1px solid crimson;
+            color: crimson;
+            font-style: italic;
+        }
+        
+        p {
+            font-size: 20px;
+            color: crimson
+        }
+        
+        #quote {
+            color: aqua
+        }
+        
+        span#author {
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkorchid
+        }
+        
+        th {
+            font-family: 'Times New Roman', Times, serif;
+            color: chartreuse
+        }
