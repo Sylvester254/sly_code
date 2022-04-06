@@ -2,12 +2,20 @@
             background-color: black;
         }
         
+        h2 {
+            color: blueviolet;
+        }
+        
+        #name:hover {
+            color: gray;
+        }
+        
         h3 {
             font-style: oblique;
             color: crimson
         }
         
-        ol li {
+        .movies {
             color: chartreuse;
             font-style: italic;
         }
